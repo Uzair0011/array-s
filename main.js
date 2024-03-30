@@ -16,7 +16,7 @@ while (condition) {
         },
     ]);
     todos.push(addTask.todo);
-    //todos.pop();
+    let todosRemoved = todos.pop();
     condition = addTask.addMore;
     console.log(todos);
 }

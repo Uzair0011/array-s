@@ -18,7 +18,6 @@ while (condition) {
   ]);
 
   todos.push(addTask.todo);
-  //todos.pop();
   condition = addTask.addMore;
   
   console.log(todos);
